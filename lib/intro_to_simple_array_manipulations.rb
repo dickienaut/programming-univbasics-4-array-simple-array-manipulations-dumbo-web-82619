@@ -13,8 +13,8 @@ def using_pop(array)
   return result
 end
 
-def pop_with_args(array, args)
+def pop_with_args(array)
   ary = array
-  ary.pop(args)
+  ary.pop(2)
   return ary
 end
