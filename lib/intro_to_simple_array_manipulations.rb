@@ -44,3 +44,13 @@ def using_uniq(array)
   return result
 end
 
+
+def using_flatten(array)
+  result = array.flatten()
+  return result
+end
+
+
+
+
+
