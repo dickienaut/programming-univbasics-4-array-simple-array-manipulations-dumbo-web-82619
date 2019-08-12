@@ -40,6 +40,7 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
-  result = array.uniq()
+  result = array.uniq!
+  return result
 end
 
