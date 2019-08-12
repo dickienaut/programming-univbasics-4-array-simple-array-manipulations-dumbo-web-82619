@@ -39,5 +39,7 @@ def using_insert(array, element)
   return result
 end
 
-
+def using_uniq(array)
+  result = array.uniq()
+end
 
